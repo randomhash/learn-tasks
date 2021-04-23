@@ -5,31 +5,31 @@ describe('calcFib tests', () => {
     expect(calcFib).toBeInstanceOf(Function);
   });
 
-  it('should calc correct for default', () => {
+  it('should calc correct for 0', () => {
     const result = calcFib(0);
 
     expect(result).toEqual([0, 1]);
   });
 
-  it('should calc correct for default 1', () => {
+  it('should calc correct for 1', () => {
     const result = calcFib(1);
 
     expect(result).toEqual([0, 1]);
   });
 
-  it('should calc correct for default 2', () => {
+  it('should calc correct for 2', () => {
     const result = calcFib(2);
 
     expect(result).toEqual([0, 1, 1]);
   });
 
-  it('should calc correct for default 38', () => {
+  it('should calc correct for 38', () => {
     const result = calcFib(38);
 
     expect(result).toEqual([0, 1, 1, 2, 3, 5, 8, 13, 21, 34]);
   });
 
-  it('should calc correct for default 89', () => {
+  it('should calc correct for 89', () => {
     const result = calcFib(89);
 
     expect(result).toEqual([0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]);
