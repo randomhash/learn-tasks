@@ -34,11 +34,16 @@
       "git add"
     ]
   },
+  "babel": {
+    "extends": "@shelf/babel-config/backend"
+  },
   "prettier": "@shelf/prettier-config",
   "jest": {
     "testEnvironment": "node"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@shelf/babel-config": "0.1.2"
+  },
   "devDependencies": {
     "@babel/cli": "7.12.13",
     "@babel/core": "7.12.13",
